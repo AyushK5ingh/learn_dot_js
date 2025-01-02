@@ -10,8 +10,8 @@ console.log("hello")
 let name ="ayush"
 let age = 21
 let isLoggedIn= true
-let state;
-
+let state;//undefined
+let pin=null;
 //number => 2 to 2^53
 // bigInt - like long int
 //string=> " "
