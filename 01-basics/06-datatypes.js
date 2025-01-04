@@ -1,6 +1,12 @@
 //primitive
 
-// 7 type: String, Number, Boolean, null, undefined, Symbol, BigInt
+// 7 type: String
+//         Number
+//         BigUnt
+//         Boolean
+//         null
+//         undefined
+//         Symbol
 //these are call by value
 const score =100;
 // const score1:number = 100
@@ -31,9 +37,9 @@ let myobj={
 }
 //let myobj is not needed
 
-const myFunction=function(){
+const HAYYA=function(){
     console.log("hey");
 }
-console.log(typeof bigNum)
-
+console.log(typeof bigNum);
+HAYYA();
 // https://262.ecma-international.org/5.1/#sec-11.4.3

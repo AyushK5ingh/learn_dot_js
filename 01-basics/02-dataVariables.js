@@ -4,7 +4,7 @@
 //we are not using node.js, not browser
 
 console.log(3
-    +3) //alows but bad practise
+    +3) //alows but bad practise,low readility
 console.log("hello")
 
 let name ="ayush"

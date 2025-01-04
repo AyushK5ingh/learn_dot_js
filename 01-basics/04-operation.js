@@ -20,8 +20,11 @@ console.log(1+"2")
 console.log("1"+2+2)
 console.log(1+2+"2")
 //good for knowledge but not good practice
+//elements before the 1st string will be considered as number
+//the first string and after all number that will be considered as string
 
 console.log(+true)
+//not good
 console.log(+"")
 
 //link to study documentation

@@ -11,8 +11,8 @@ var accountPassword="12345"
 */
 
 accountCity="Jaipur"
-//nott a good practice to not use any data type
-//but js is realy safe langue so it works
+//not a good practice to not use any data type
+//but js is realy safe langaue so it works
 //undefined data is like var
 
 let accountState;

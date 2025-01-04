@@ -15,7 +15,7 @@ console.log(valInNumber)
 
 //"33" => 33
 //"33abc" => NaN
-// true =1; false =>0
+// true =NaN; false =>NaN
 
 let isLoggedIn = 1
 
@@ -26,6 +26,7 @@ console.log(boolIsLoggedIn)
 //0 => false
 //"hitesh" => true
 //34 => true
+//""=FALSE
 
 let someNum = "33"
 let stringNumber = String(someNum)
