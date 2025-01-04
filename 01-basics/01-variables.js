@@ -27,4 +27,5 @@ accountCity="Patna"
 
 console.log([accountId]);
 /*MF*/
+//TABLE
 console.table([accountId,accountEmail,accountPassword,accountCity,accountState]);

@@ -25,7 +25,7 @@ console.log(1+2+"2")
 
 console.log(+true)
 //not good
-console.log(+"")
+console.log(+"")//F
 
 //link to study documentation
 //https://tc39.es/ecma262/2023/multipage/abstract-operations.html#sec-type-conversion

@@ -6,7 +6,10 @@
 
 console.log("2">1)//TRUE
 console.log("abc"<1)//FALSE
+//(Don't compare different data types
 //tyscript doesn't allow to compare 2 diffrent type of data
+// - Comparing same datatypes are easy to predict 
+// - Don't compare different data types
 console.log(null>0)   //f
 console.log(null == 0)//f
 console.log(null >= 0)//t
