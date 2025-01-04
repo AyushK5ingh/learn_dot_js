@@ -3,10 +3,10 @@ console.log(typeof score)
 
 let valueInNumber = Number (score)
 
-console.log(typeof valueInNUmber) 
+console.log(typeof valueInNUmber)
 console.log(valueInNumber)
 
-let scar ="34abc"
+let scar ="22abc"
 let valInNumber = Number (scar)
 
 console.log(typeof valInNumber)

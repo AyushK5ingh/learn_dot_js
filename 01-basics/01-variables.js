@@ -13,6 +13,7 @@ var accountPassword="12345"
 accountCity="Jaipur"
 //nott a good practice to not use any data type
 //but js is realy safe langue so it works
+//undefined data is like var
 
 let accountState;
 //initializing the variable without assigning data
@@ -25,5 +26,5 @@ accountPassword="2213187"
 accountCity="Patna"
 
 console.log([accountId]);
-
+/*MF*/
 console.table([accountId,accountEmail,accountPassword,accountCity,accountState]);
