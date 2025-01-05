@@ -28,6 +28,7 @@ console.log(Array.from("Hitesh"))
 //converts into array
 console.log(Array.from({name:"Ayush"}))//interesting
 //gets confused which value to convert to array 
+//it used to convert array like obj into array
 //key or the value
 
 let score1 = 100
