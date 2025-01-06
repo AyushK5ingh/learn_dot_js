@@ -35,15 +35,15 @@ console.log(obj3);
 const users = [
     {
         id: 1,
-        email: "h@gmail.com"
+        email: "h1@gmail.com"
     },
     {
         id: 1,
-        email: "h@gmail.com"
+        email: "h2@gmail.com"
     },
     {
         id: 1,
-        email: "h@gmail.com"
+        email: "h3@gmail.com"
     },
 ]
 
