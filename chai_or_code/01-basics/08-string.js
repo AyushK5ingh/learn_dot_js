@@ -23,7 +23,7 @@ console.log(gameName.indexOf('d'))
 const sub1=gameName.substring(0,4);//from i to j-1
 console.log(sub1)
 const sub2=gameName.slice(-8,4)//can use negative value
-//negative value starts frim -1
+//negative value starts from -1
 
 const spaces ="    ayuhs   "
 console.log(spaces.trim())//removes spaces
