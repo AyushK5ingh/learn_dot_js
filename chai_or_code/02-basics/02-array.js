@@ -1,14 +1,14 @@
 const marvel_heros = ["thor", "Ironman", "spiderman"]
 const dc_heros = ["superman", "flash", "batman"]
 
+const allHeros = marvel_heros.concat(dc_heros)
+//properly extrats the array and merges into one
+console.log(allHeros);
+
 marvel_heros.push(dc_heros)
 //push whole array in the other array
 console.log(marvel_heros)
 console.log(marvel_heros[3][1])
-
-const allHeros = marvel_heros.concat(dc_heros)
-//properly extrats the array and merges into one
-console.log(allHeros);
 
 //best methods
 const all_new_heros=[...marvel_heros,...dc_heros]

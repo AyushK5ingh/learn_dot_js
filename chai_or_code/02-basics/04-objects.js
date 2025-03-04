@@ -57,4 +57,3 @@ console.log(Object.entries(tinderUser));
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 //checks whether it is present in the obj or not
-

@@ -5,6 +5,7 @@
 const myArr = [0,1,2,3,4,5];
 const myHero =["shasktiman","superman","batman"]
 //unlike other language array can be mix of diff data types
+//ARRAY IS ALSO resizable
 //upon copy operation it shares shallow copy (properties shares same reference point)
 //not deep copy
 
@@ -38,7 +39,6 @@ console.log(myArr.indexOf(2))//index of the elemt in the array
 const newArr=myArr.join()
 //adds all the element of the arr into strings(comma seprated)
 console.log(newArr)
-
 //slice,splice
 
 console.log("A ", myArr);
@@ -52,8 +52,10 @@ console.log("B ", myArr);
 const myn2 = myArr.splice(1, 3)
 console.log("C ", myArr);
 console.log(myn2);
-//slice is inclusive in the end unlike splic
+//slice is inclusive in the end unlike splice
 //which is exclusive in the start as well as end both
 
+//*** imp ***/
 //splice delete the elements extracted from the orignal array unlike slice
+
 //which leaves the array untouched
