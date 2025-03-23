@@ -10,7 +10,7 @@
 //these are call by value
 const score =100;
 // const score1:number = 100
-//only typesccript
+//only for typesccript
 
 const scoreValue = 100.3
 
@@ -42,7 +42,7 @@ let myobj={
     name: "ayush",
     age:23,
 }
-//let myobj is not needed
+//let myobj is not cumpulasry
 
 const HAYYA=function(){
     console.log("hey");
