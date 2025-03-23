@@ -2,7 +2,7 @@
 
 // 7 type: String
 //         Number
-//         BigUnt
+//         BigInt
 //         Boolean
 //         null
 //         undefined
