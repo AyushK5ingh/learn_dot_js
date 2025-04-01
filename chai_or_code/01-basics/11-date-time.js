@@ -1,10 +1,10 @@
 let myDate =new Date();
-console.log(myDate)//not understandale
+console.log(myDate)//numerical format
 console.log(myDate.toString())//understandable
 console.log(myDate.toDateString())//displays date only
 console.log(myDate.toLocaleString())//displays time only
 console.log(myDate.getMonth()+1);
-console.log(myDate.getDay());
+console.log(myDate.getDay());//day of the mounth
 console.log(typeof myDate);
 
 let myCreatedDate =new Date(2023,0,23,15,3)//mounth start from 0
