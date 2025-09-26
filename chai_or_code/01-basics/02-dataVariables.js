@@ -1,11 +1,22 @@
 "use strict";//trest all JS code as newer version
 
 // alert(3+3)
-//we are not using node.js, not browser
+//we are using node.js, not browser
+//different ways to print in node.js
+console.log(3+3) //most used
+// document.write(3+3) //only in browser
+// alert(3+3) //only in browser
+// prompt("what is your name?") //only in browser
 
+//statements in js end with ;
+//semicolon is optional in js
+//but it is a good practise to use it
+
+console.log(3+3); console.log("hello")
 console.log(3
     +3) //alows but bad practise,low readility
 console.log("hello")
+
 
 let name ="ayush"
 let age = 21

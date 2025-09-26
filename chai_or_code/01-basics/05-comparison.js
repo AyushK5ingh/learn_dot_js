@@ -21,7 +21,7 @@ console.log(undefined <0)
 //all false
 
 // Strict equality using ===
-console.log("2"==2)
+console.log("2"===2)
 // Neither value is implicitly converted to some other value before being compared
 
 //always priotize clean code

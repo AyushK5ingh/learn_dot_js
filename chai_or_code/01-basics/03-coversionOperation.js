@@ -3,7 +3,7 @@ console.log(typeof score)
 
 let valueInNumber = Number (score)
 
-console.log(typeof valueInNUmber)
+console.log(typeof valueInNumber)
 console.log(valueInNumber)
 
 let scar ="22abc"
@@ -28,6 +28,21 @@ console.log(boolIsLoggedIn)
 //34 => true
 //""=FALSE
 
+let somestr = null
+
+let numstri = Number(somestr)
+console.log(numstri);
+console.log(typeof numstri)
+
+let str = String(somestr)
+console.log(str);
+console.log(typeof str)
+
+let numstr = Number(str)
+console.log(numstr);
+console.log(typeof numstr
+
+)
 let someNum = "33"
 let stringNumber = String(someNum)
 console.log(stringNumber);

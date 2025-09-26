@@ -5,9 +5,9 @@ console.log(negValue)
 // console.log(2+2)
 // console.log(2-2)
 // console.log(2*2)
-// console.log(2**2)
+// console.log(2**2)  - power
 // console.log(22/2)
-// console.log(22%2)
+// console.log(22%2) - remainder
 
 let str1= "hello "
 let str2=" ayush"

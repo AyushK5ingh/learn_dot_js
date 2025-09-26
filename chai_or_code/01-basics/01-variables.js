@@ -13,7 +13,8 @@ var accountPassword="12345"
 accountCity="Jaipur"
 //not a good practice to not use any data type
 //but js is realy safe langaue so it works
-//undefined data is like var
+//undefined data is "ike" var
+// wil throw error in "strict mode"
 
 let accountState;
 //initializing the variable without assigning data

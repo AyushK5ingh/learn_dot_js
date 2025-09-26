@@ -17,8 +17,10 @@ const scoreValue = 100.3
 const isLoggedIn = false
 const outsideTemp = null
 let userEmail;
+//undefined
 
-
+//symbol
+//unique identifier
 const id=Symbol('123');
 const anotherId=Symbol('123');
 console.log (id==anotherId);
@@ -27,6 +29,7 @@ const scard=null;
 //will give type of as object not null
 const bigNum = 12345669874n;
 //add n in the end for bigint
+console.log(typeof bigNum);
 
 //no need to define data type.(js is dynamicaly typed)
 //we can define but it just makes the code safer only
@@ -38,6 +41,7 @@ const bigNum = 12345669874n;
 //Array, Objects, Functions
 
 const heros=["shaktiman","ayus","john"];
+
 let myobj={
     name: "ayush",
     age:23,
@@ -47,7 +51,8 @@ let myobj={
 const HAYYA=function(){
     console.log("hey");
 }
-
-console.log(typeof bigNum);
+console.log(typeof HAYYA);
+//object function
+console.log(typeof heros);
 HAYYA();
 // https://262.ecma-international.org/5.1/#sec-11.4.3
