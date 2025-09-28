@@ -4,23 +4,30 @@ const course ={
     price:"999",
     courseInstructor:"Hitesh"
 }
-const{courseInstructor:Inst}=course
-
+const {courseInstructor} =course
 console.log(courseInstructor)
-console.log(Instructor)
+
+const {price:MRP}= course
+console.log(MRP)
+
+//console.log(price) will give errorbcz of :MRP
 
 //learn obj destructring
 
 
-//learn json below
+//JSON FORMAT BELOW
 // {
 //     "name": "hitesh",
 //     "coursename": "js in hindi",
 //     "price": "free"
+//     "SITE_ADMIN": false
 // }
 
-[
-    {},
-    {},
-    {}
-]
+//api format can also be like array
+// [
+//     {},
+//     {},
+//     {}
+// ]
+
+// json formater to format api

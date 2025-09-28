@@ -1,14 +1,19 @@
 const marvel_heros = ["thor", "Ironman", "spiderman"]
 const dc_heros = ["superman", "flash", "batman"]
 
+const marvel_1 =marvel_heros.slice()
+//creating deep copy
+marvel_1.push(dc_heros)
+//marvel_heros=[marvel_heros[dc_heros]]
+
+//push whole array in the other array
+console.log(marvel_1)
+console.log(marvel_1[3][1])
+
 const allHeros = marvel_heros.concat(dc_heros)
 //properly extrats the array and merges into one
 console.log(allHeros);
-
-marvel_heros.push(dc_heros)
-//push whole array in the other array
-console.log(marvel_heros)
-console.log(marvel_heros[3][1])
+//allheros = [marvel_heros+dc_heros]
 
 //best methods
 const all_new_heros=[...marvel_heros,...dc_heros]
@@ -36,3 +41,4 @@ let score2 = 200
 let score3 = 300
 
 console.log(Array.of(score1, score2, score3));
+//converts elements to array

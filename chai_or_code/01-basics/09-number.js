@@ -1,7 +1,9 @@
 const score =400
+//automaticaly makes it a number
 console.log(score)
 
 const balance = new Number(100)
+//forcefully a number
 console.log(balance)
 
 console.log(balance.toString().length)
@@ -18,3 +20,4 @@ console.log(hundred.toLocaleString('en-IN'))
 
 //more mothods can be found same way as string
 
+//MAX_INTEGER, MIN_INTEGER, MAX_SAFE_INTEGER

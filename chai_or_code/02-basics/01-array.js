@@ -18,6 +18,7 @@ console.log(myHero[1]);
 //Array Methods
 
 myArr.push(69)
+//appends at the end
 myArr.push(7)
 console.log(myArr)
 myArr.pop()
@@ -30,8 +31,7 @@ myArr.unshift(20)
 myArr.shift()
 //deletes at the top
 //also not optimized
-//similar to push and pop
-//it just happens at the start
+//similar to push and pop but happens at srart
 
 console.log(myArr.includes(2))//is present or not
 console.log(myArr.indexOf(2))//index of the elemt in the array
@@ -39,12 +39,13 @@ console.log(myArr.indexOf(2))//index of the elemt in the array
 const newArr=myArr.join()
 //adds all the element of the arr into strings(comma seprated)
 console.log(newArr)
+
 //slice,splice
 
 console.log("A ", myArr);
 
 const myn1 = myArr.slice(1, 3)
-
+//exclusive in the start as well as end both 
 console.log(myn1);
 console.log("B ", myArr);
 
@@ -54,6 +55,9 @@ console.log("C ", myArr);
 console.log(myn2);
 //slice is inclusive in the end unlike splice
 //which is exclusive in the start as well as end both
+// Used only with arrays.
+// Modifies the original array.
+// Can remove, replace, or insert elements.
 
 //*** imp ***/
 //splice delete the elements extracted from the orignal array unlike slice
