@@ -6,7 +6,7 @@ function sayMyName(){
     console.log("h")
 }
 
-// sayMyName()
+sayMyName()
 
 function add2nums(n1,n2){
     console.log(n1+n2)
@@ -15,19 +15,20 @@ function add2nums(n1,n2){
 add2nums(3,5)
 add2nums(3,"a")
 
-
-function add2nums(n1,n2){
+function add2num(n1,n2){
     return n1+n2
 }
+// But in JavaScript, function declarations are hoisted (they move to the top of their scope).
+// If multiple functions with the same name exist, the last one wins.
 
-const sum =add2nums(3,5)
+const sum =add2num(3,5)
 console.log(`result : ${sum}`)
 
 function logInUserMess(username="sam")
 //provide default vaue using =
 {   if(!username)//username==undefined
     {
-        console.log("pls")
+        console.log("no usernames")
         return
     }
     return `${username} just logged in`
@@ -53,7 +54,7 @@ const user={
 
 function handObject(anyObject){
     console.log(`username is ${anyObject.username} and its price is ${anyObject.price}`)
-
+    //if any value cant be foud it will return undefined
 }
 
 handObject(user)
