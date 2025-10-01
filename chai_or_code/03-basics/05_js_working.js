@@ -139,3 +139,14 @@ Execution Trace:
 8. Logs: "Program finished."
    GEC popped → Stack empty.
 */
+
+/*
+===========================================
+   Summary
+===========================================
+
+- JavaScript code runs inside Execution Contexts managed by the Call Stack.
+- Global Execution Context is created first, followed by Function Execution Contexts for each function call.
+- Each Execution Context goes through Memory Creation (Hoisting) and Code Execution phases.
+- The Call Stack ensures proper order of execution and context management.
+*/
