@@ -58,7 +58,7 @@ const addtwo2 = (a,b) => (a+b)
 //only if you use no {} or just use () or no no brackets
 
 console.log(addTwo1(12,122));
-console.log(addTwo2(12,122));
+console.log(addtwo2(12,122));
 
 //object
 const aobject = () => {username:"aks"}
@@ -68,3 +68,7 @@ const aobjectc = () => ({username :"aks"})
 console.log(aobjectc());
 console.log(aobjectc());
 
+let z=((a,b) => (a*b))(2,3);//6
+console.log(z);
+//arrow function does not have its own this
+//it takes this from surrounding context

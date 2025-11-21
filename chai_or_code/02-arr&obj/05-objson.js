@@ -14,7 +14,6 @@ console.log(MRP)
 
 //learn obj destructring
 
-
 //JSON FORMAT BELOW
 // {
 //     "name": "hitesh",

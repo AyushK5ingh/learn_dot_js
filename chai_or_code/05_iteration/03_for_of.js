@@ -30,7 +30,11 @@ console.log(map);
 for (const [key, value] of map) {
   console.log(key, "=", value);
 }
-
+console.log("----");
+for (const key of map) {
+  console.log(key);
+  console.log(key[0], "=>", key[1]);
+}
 const myObject = {
   game1: "NFS",
   game2: "Spiderman",
@@ -41,15 +45,15 @@ const myObject = {
 //     console.log(key, '=', value);
 
 // }
-
+console.log("----");
 for (const [key, value] of Object.entries(myObject)) {
   console.log(key, "=", value);
 }
-
+console.log("----");
 for (const key in myObject) {
   console.log(key, "=", myObject[key]);
 }
-
+console.log("----");
 // Keys
 for (const key of Object.keys(myObject)) {
   console.log(key);

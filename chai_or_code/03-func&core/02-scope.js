@@ -11,6 +11,7 @@ if(true){
 console.log(a)
 console.log(b)
 console.log(c)
+//var is function scoped
 
 function one(){
     const username ="ayush"
@@ -38,13 +39,11 @@ if (true) {
 // console.log(username); error
 
 
+
 // ++++++++++++++++++ interesting ++++++++++++++++++
-
-
 // -----------------------------
 // Example: Function Declaration vs Function Expression
 // -----------------------------
-
 // ✅ Function Declaration
 // Function declarations are fully hoisted.
 // That means you can call them before their definition in the code.
@@ -54,7 +53,6 @@ console.log(addOne(5)); // Output: 6
 function addOne(num) {
     return num + 1;
 }
-
 
 // ❌ Function Expression
 // This function is assigned to a variable (const).

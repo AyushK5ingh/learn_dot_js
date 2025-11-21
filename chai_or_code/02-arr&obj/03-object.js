@@ -9,7 +9,7 @@
 const mySym= Symbol("key1")
 const JsUser = {
     name:"ayush",
-    "fname":"ayushksingh",
+    "f name":"ayushksingh",
     age:"21",
     location:"dead",
     [mySym]:"myKey1",//use[] to use symbol as key
@@ -19,16 +19,17 @@ const JsUser = {
 }
 
 console.log(JsUser.name);
+// console.log(JsUser.f name);
+// this will give error because of space in key name
 console.log(JsUser["email"])
-console.log(JsUser["fname"])
+console.log(JsUser["f name"])
 console.log(JsUser[mySym])
 
 
 JsUser.email="ayushksing@gmail.com"
 
 // Object.freeze(JsUser);
-
-// //post freeze changes wont occur
+//post freeze changes wont occur
 //but will not give error when tried changed simply rejected
 JsUser.email="ayush90@gmail.com"
 console.log(JsUser)

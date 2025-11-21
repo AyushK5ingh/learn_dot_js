@@ -9,7 +9,7 @@ for (let i = 0; i <= 10; i++) {
     
 }
 
-console.log(element);
+// console.log(element);
 //scope issue
 
 // nested loop
@@ -19,7 +19,6 @@ for (let i = 1; i <= 10; i++) {
     console.log(`Inner loop value ${j} and inner loop ${i}`);
     console.log(i + '*' + j + ' = ' + i*j );
    }
-    
 }
 let myArray = ["flash", "batman", "superman"]
 console.log(myArray.length);
@@ -28,9 +27,11 @@ for (let index = 0; index < myArray.length; index++) {
     console.log(element);
     
 }
+// for..of loop
+console.log("Using for..of loop");
 for (let hero of myArray) {
-    const element = myArray[index];
-    console.log(element);
+    // const element = myArray[index];
+    console.log(hero);
     
 }
 

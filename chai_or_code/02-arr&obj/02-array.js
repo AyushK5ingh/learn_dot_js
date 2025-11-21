@@ -23,7 +23,8 @@ console.log(all_new_heros)
 
 const another_array = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]]
 
-const real_another=another_array.flat(Infinity)
+const real_another=another_array.flat(1)
+// const real_another=another_array.flat(Infinity)
 //it remove nested array with the depth in the bracket
 console.log(real_another)
 

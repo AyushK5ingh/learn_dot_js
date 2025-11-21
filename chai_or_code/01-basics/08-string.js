@@ -3,7 +3,7 @@ const name = "ayush"
 const repoCount= 50
 
 console.log(name + repoCount + "Value");
-//udated and not recomended
+//outdated and not recomended
 
 console.log(`hello my name is ${name} and my repo count is ${repoCount}`)
 //use back bricks(`) below escape

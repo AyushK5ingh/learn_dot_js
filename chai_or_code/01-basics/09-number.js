@@ -14,10 +14,6 @@ const otherNumber = 23.889;
 
 console.log(otherNumber.toPrecision(3));
 //rounds of there digits
-
-const hundred=1000000;
-console.log(hundred.toLocaleString('en-IN'))
-
 //more mothods can be found same way as string
 
 //MAX_INTEGER, MIN_INTEGER, MAX_SAFE_INTEGER

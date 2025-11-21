@@ -30,16 +30,19 @@ console.log(boolIsLoggedIn)
 
 let somestr = null
 
-let numstri = Number(somestr)
+let numstri = Number(somestr) 
 console.log(numstri);
+//null => 0
 console.log(typeof numstri)
 
 let str = String(somestr)
 console.log(str);
+//null => "null"
 console.log(typeof str)
 
 let numstr = Number(str)
 console.log(numstr);
+//"null" => NaN
 console.log(typeof numstr
 
 )

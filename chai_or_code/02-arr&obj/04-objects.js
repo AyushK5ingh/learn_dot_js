@@ -14,7 +14,7 @@ const person2 = new Person("Ravi", 30);
 person1.greet(); // Hello, my name is Ayush
 person2.greet(); // Hello, my name is Ravi
 
-//good fro creating constructor pbejct
+//good for creating constructor object
 
 const tinderUser =new Object()
 
@@ -27,11 +27,11 @@ tinderUser.named = function(gg){
 console.log(`my name is ${this.name}`)
 }
 // this is crucial here—it links the method to the object’s own properties.
-
+tinderUser.named("ayushksingh");
 console.log(tinderUser);
 
 const regularUser = {
-    email: "some@gmail.com",
+    email: "some@gmail.com", 
     fullname: {
         userfullname: {
             firstname: "hitesh",
@@ -45,11 +45,11 @@ console.log(regularUser.fullname?.userfullname.firstname);
 //if doesnot exist will print undefined
 
 
-const target = { a: 1, b: 2 };
-const source = { b: 4, c: 5 };
+const target = { a: "1", b: "2" };
+const source = { b: "4", c: "5" };
 
 const returnedTarget = Object.assign(target, source);
-
+// Merges source into target
 console.log(target);
 // Expected output: Object { a: 1, b: 4, c: 5 }
 
